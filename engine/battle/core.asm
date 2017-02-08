@@ -4242,7 +4242,7 @@ GetDamageVarsForPlayerAttack:
 	ld d, a ; d = move power
 	ret z ; return if move power is zero
 	ld a, [hl] ; a = [wPlayerMoveType]
-	cp FIRE ; types >= FIRE are all special
+	cp NORMAL_SPEC ; types >= NORMAL_SPEC are all special
 	jr nc, .specialAttack
 .physicalAttack
 	ld hl, wEnemyMonDefense
@@ -4355,7 +4355,7 @@ GetDamageVarsForEnemyAttack:
 	and a
 	ret z ; return if move power is zero
 	ld a, [hl] ; a = [wEnemyMoveType]
-	cp FIRE ; types >= FIRE are all special
+	cp NORMAL_SPEC ; types >= NORMAL_SPEC are all special
 	jr nc, .specialAttack
 .physicalAttack
 	ld hl, wBattleMonDefense
@@ -4784,14 +4784,12 @@ HandleCounterMove:
 	ld a,[de]
 	and a
 	ret z ; miss if the opponent's last selected move's Base Power is 0.
-; check if the move the target last selected was Normal or Fighting type
+; check if the move the target last selected was Physical
 	inc de
 	ld a,[de]
-	and a ; normal type
-	jr z,.counterableType
-	cp a,FIGHTING
-	jr z,.counterableType
-; if the move wasn't Normal or Fighting type, miss
+	cp a,$20 ; Physical/Special
+	jr c,.counterableType
+; if the move wasn't Physical move, miss
 	xor a
 	ret
 .counterableType
@@ -5310,6 +5308,7 @@ AdjustDamageForMoveType:
 	ld [wMoveType],a
 .next
 	ld a,[wMoveType]
+	and $DF ; Physical/Special
 	cp b ; does the move type match type 1 of the attacker?
 	jr z,.sameTypeAttackBonus
 	cp c ; does the move type match type 2 of the attacker?
