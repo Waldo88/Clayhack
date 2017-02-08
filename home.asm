@@ -3245,8 +3245,13 @@ GetName::
 	ld a,[wd0b5]
 	ld [wd11e],a
 
+	ld a,[wNameListType] ; TM/HM Bug fix
+	cp ITEM_NAME
+	jp nz,.skipHMCheck
+
 	; TM names are separate from item names.
 	; BUG: This applies to all names instead of just items.
+	ld a,[wd0b5]
 	cp HM_01
 	jp nc, GetMachineName
 

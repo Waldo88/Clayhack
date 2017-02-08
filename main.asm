@@ -904,7 +904,6 @@ TradingAnimationGraphics2:
 	INCBIN "gfx/trade2.2bpp"
 TradingAnimationGraphics2End:
 
-INCLUDE "engine/evos_moves.asm"
 INCLUDE "engine/battle/moveEffects/heal_effect.asm"
 INCLUDE "engine/battle/moveEffects/transform_effect.asm"
 INCLUDE "engine/battle/moveEffects/reflect_light_screen_effect.asm"
@@ -2094,3 +2093,7 @@ INCLUDE "engine/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 
 INCLUDE "engine/items/tm_prices.asm"
+
+SECTION "bank2D",ROMX,BANK[$2D]
+
+INCLUDE "engine/evos_moves.asm"
