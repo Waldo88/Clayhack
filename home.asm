@@ -3255,6 +3255,7 @@ GetName::
 	cp HM_01
 	jp nc, GetMachineName
 
+.skipHMCheck
 	ld a,[H_LOADEDROMBANK]
 	push af
 	push hl
