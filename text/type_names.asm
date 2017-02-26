@@ -6,29 +6,42 @@ TypeNames:
 	dw .Poison
 	dw .Ground
 	dw .Rock
-	dw .Bird
+	dw .Dark
 	dw .Bug
-	dw .Ghost
-
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-
+	dw .Steel
+	dw .Dragon
 	dw .Fire
 	dw .Water
 	dw .Grass
 	dw .Electric
 	dw .Psychic
 	dw .Ice
+	dw .Ghost
+	dw .Fairy
+	
+	dw .Normal
+	dw .Normal
+	dw .Normal
+	dw .Normal
+	
+	dw .Normal
+	dw .Fighting
+	dw .Flying
+	dw .Poison
+	dw .Ground
+	dw .Rock
+	dw .Dark
+	dw .Bug
+	dw .Steel
 	dw .Dragon
+	dw .Fire
+	dw .Water
+	dw .Grass
+	dw .Electric
+	dw .Psychic
+	dw .Ice
+	dw .Ghost
+	dw .Fairy
 
 .Normal:   db "NORMAL@"
 .Fighting: db "FIGHTING@"
@@ -46,3 +59,6 @@ TypeNames:
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
+.Dark:	   db "DARK@"
+.Fairy:	   db "FAIRY@"
+.Steel:	   db "STEEL@"
