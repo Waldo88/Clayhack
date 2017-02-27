@@ -14,7 +14,7 @@ dw JolteonPicBack
 ; attacks known at lvl 0
 db TACKLE
 db SAND_ATTACK
-db QUICK_ATTACK
+db QUICK_ATTACK_MOVE
 db THUNDERSHOCK
 db 0 ; growth rate
 ; learnset

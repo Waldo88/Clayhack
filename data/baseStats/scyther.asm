@@ -12,7 +12,7 @@ INCBIN "pic/bmon/scyther.pic",0,1 ; 77, sprite dimensions
 dw ScytherPicFront
 dw ScytherPicBack
 ; attacks known at lvl 0
-db QUICK_ATTACK
+db QUICK_ATTACK_MOVE
 db 0
 db 0
 db 0

@@ -458,16 +458,16 @@ MainInBattleLoop:
 	callab SwitchEnemyMon
 .noLinkBattle
 	ld a, [wPlayerSelectedMove]
-	cp QUICK_ATTACK
-	jr nz, .playerDidNotUseQuickAttack
+	cp PRIORITY_CONST
+	jr c, .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
-	jr z, .compareSpeed  ; if both used Quick Attack
+	cp PRIORITY_CONST
+	jr nc, .compareSpeed  ; if both used Quick Attack
 	jp .playerMovesFirst ; if player used Quick Attack and enemy didn't
 .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
-	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
+	cp PRIORITY_CONST
+	jr nc, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
 	cp COUNTER
 	jr nz, .playerDidNotUseCounter

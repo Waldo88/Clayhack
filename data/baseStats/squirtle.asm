@@ -12,8 +12,8 @@ INCBIN "pic/bmon/squirtle.pic",0,1 ; 55, sprite dimensions
 dw SquirtlePicFront
 dw SquirtlePicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
+db BULLET_PUNCH_MOVE ; Tackle
+db 0 ; Tail Whip
 db 0
 db 0
 db 3 ; growth rate

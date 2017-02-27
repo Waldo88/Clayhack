@@ -623,7 +623,7 @@ Mon016_EvosMoves:
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
+	db 12,QUICK_ATTACK_MOVE
 	db 19,WHIRLWIND
 	db 28,WING_ATTACK
 	db 36,AGILITY
@@ -1132,7 +1132,7 @@ Mon037_EvosMoves:
 	db EV_ITEM,FIRE_STONE,1,NINETALES
 	db 0
 ;Learnset
-	db 16,QUICK_ATTACK
+	db 16,QUICK_ATTACK_MOVE
 	db 21,ROAR
 	db 28,CONFUSE_RAY
 	db 35,FLAMETHROWER
@@ -1153,7 +1153,7 @@ Mon025_EvosMoves:
 	db 0
 ;Learnset
 	db 9,THUNDER_WAVE
-	db 16,QUICK_ATTACK
+	db 16,QUICK_ATTACK_MOVE
 	db 26,SWIFT
 	db 33,AGILITY
 	db 43,THUNDER
@@ -1347,7 +1347,7 @@ Mon133_EvosMoves:
 	db 0
 Mon133_EvosEnd:
 ;Learnset
-	db 27,QUICK_ATTACK
+	db 27,QUICK_ATTACK_MOVE
 	db 31,TAIL_WHIP
 	db 37,BITE
 	db 45,TAKE_DOWN
@@ -1358,7 +1358,7 @@ Mon136_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 27,QUICK_ATTACK
+	db 27,QUICK_ATTACK_MOVE
 	db 31,EMBER
 	db 37,TAIL_WHIP
 	db 40,BITE
@@ -1373,7 +1373,7 @@ Mon135_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 27,QUICK_ATTACK
+	db 27,QUICK_ATTACK_MOVE
 	db 31,THUNDERSHOCK
 	db 37,TAIL_WHIP
 	db 40,THUNDER_WAVE
@@ -1388,7 +1388,7 @@ Mon134_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 27,QUICK_ATTACK
+	db 27,QUICK_ATTACK_MOVE
 	db 31,WATER_GUN
 	db 37,TAIL_WHIP
 	db 40,BITE
@@ -1864,7 +1864,7 @@ Mon017_EvosMoves:
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
+	db 12,QUICK_ATTACK_MOVE
 	db 21,WHIRLWIND
 	db 31,WING_ATTACK
 	db 40,AGILITY
@@ -1877,7 +1877,7 @@ Mon018_EvosMoves:
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
+	db 12,QUICK_ATTACK_MOVE
 	db 21,WHIRLWIND
 	db 31,WING_ATTACK
 	db 44,AGILITY
@@ -2030,7 +2030,7 @@ Mon019_EvosMoves:
 	db EV_LEVEL,20,RATICATE
 	db 0
 ;Learnset
-	db 7,QUICK_ATTACK
+	db 7,QUICK_ATTACK_MOVE
 	db 14,HYPER_FANG
 	db 23,FOCUS_ENERGY
 	db 34,SUPER_FANG
@@ -2041,7 +2041,7 @@ Mon020_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,QUICK_ATTACK
+	db 7,QUICK_ATTACK_MOVE
 	db 14,HYPER_FANG
 	db 27,FOCUS_ENERGY
 	db 41,SUPER_FANG
@@ -2152,6 +2152,8 @@ Mon004_EvosMoves:
 	db EV_LEVEL,16,CHARMELEON
 	db 0
 ;Learnset
+	db 6,AQUA_JET_MOVE
+	db 7,BULLET_PUNCH_MOVE
 	db 9,EMBER
 	db 15,LEER
 	db 22,RAGE

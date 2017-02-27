@@ -14,7 +14,7 @@ dw PidgeotPicBack
 ; attacks known at lvl 0
 db GUST
 db SAND_ATTACK
-db QUICK_ATTACK
+db QUICK_ATTACK_MOVE
 db 0
 db 3 ; growth rate
 ; learnset

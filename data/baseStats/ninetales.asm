@@ -14,7 +14,7 @@ dw NinetalesPicBack
 ; attacks known at lvl 0
 db EMBER
 db TAIL_WHIP
-db QUICK_ATTACK
+db QUICK_ATTACK_MOVE
 db ROAR
 db 0 ; growth rate
 ; learnset
