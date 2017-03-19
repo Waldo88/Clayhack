@@ -2153,7 +2153,8 @@ Mon004_EvosMoves:
 	db 0
 ;Learnset
 	db 6,AQUA_JET_MOVE
-	db 7,BULLET_PUNCH_MOVE
+	db 7,EXTREMESPEED_MOVE
+    db 8,HURRICANE_MOVE
 	db 9,EMBER
 	db 15,LEER
 	db 22,RAGE
