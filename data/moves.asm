@@ -267,4 +267,4 @@ MoveEnd:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, STEEL,          100, 30 ; $FC Bullet Punch
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING,       100, 30 ; $FD Mach Punch
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        80, NORMAL,         100,  5 ; $FE Extremespeed
-    move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC   100, 30 ; $FF Vacuum Wave
+    move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $FF Vacuum Wave
