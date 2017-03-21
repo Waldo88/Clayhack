@@ -197,33 +197,33 @@ MoveEnd:
 	move GUILLOTINE,   NO_ADDITIONAL_EFFECT,        35, FLYING_SPEC,    100, 35 ; $B6 Air Slash
 	move WHIRLWIND,    NO_ADDITIONAL_EFFECT,        35, FLYING_SPEC,    100, 35 ; $B7 Hurricane
 	move RECOVER,      NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $B8 Roost
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $B9 Astonish
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, FAIRY,          100, 35 ; $BA Charm
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BB Shadow Punch
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BC Shadow Claw
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BD PhantomForce
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BE Ominous Wind
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BF Shadow Ball
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C0 Bullet Seed
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C1 Seed Bomb
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C2 Leaf Blade
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C3 Power Whip
+	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $B9 Astonish
+	move LOVELY_KISS,  NO_ADDITIONAL_EFFECT,        35, FAIRY,          100, 35 ; $BA Charm
+	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BB Shadow Punch
+	move SLASH,        NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BC Shadow Claw
+	move FLY,          NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BD PhantomForce
+	move GUST,         NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BE Ominous Wind
+	move CONFUSE_RAY,  NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BF Shadow Ball
+	move BARRAGE,      NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C0 Bullet Seed
+	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C1 Seed Bomb
+	move SLASH,        NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C2 Leaf Blade
+	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C3 Power Whip
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C4 Magical Leaf
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C5 Giga Drain
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C6 Energy Ball
 	move RECOVER,      NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C7 Synthesis
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C8 Bone Rush
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C9 Bulldoze
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $CA Drill Run
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CB Mud Slap
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CC Mud Bomb
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CD Earth Power
+	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C8 Bone Rush
+	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C9 Bulldoze
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $CA Drill Run
+	move SAND_ATTACK,  NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CB Mud Slap
+	move SLUDGE,       NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CC Mud Bomb
+	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CD Earth Power
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $CE Freeze Dry
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $CF Icicle Spear
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $D0 Ice Fang
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $D1 Icicle Crash
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D2 Powder Snow
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D3 Icy Wind
+	move FIRE_SPIN,    NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $D1 Icicle Crash
+	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D2 Powder Snow
+	move GUST,         NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D3 Icy Wind, combine Gust and Ice Beam anims?
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL_SPEC,    100, 35 ; $D4 Hyper Voice
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,         100, 35 ; $D5 Protect
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D6 Poison Fang
@@ -232,21 +232,21 @@ MoveEnd:
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D9 Gunk Shot
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, POISON_SPEC,    100, 35 ; $DA Sludge Bomb
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $DB Coil
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DC Psycho Cut
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DD Zen Headbutt
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, PSYCHIC_SPEC,   100, 35 ; $DE Extrasensory
+	move SLASH,        NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DC Psycho Cut
+	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DD Zen Headbutt
+	move PSYCHIC,      NO_ADDITIONAL_EFFECT,        35, PSYCHIC_SPEC,   100, 35 ; $DE Extrasensory
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DF Calm Mind
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $E0 Mirror Coat
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E1 Rock Blast
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E2 Rock Tomb
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E3 Stone Edge
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E4 Head Smash
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E5 AncientPower
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E6 Power Gem
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E7 Rock Polish
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E8 Metal Claw
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E9 Steel Wing
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EA Iron Head
+	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E1 Rock Blast
+	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E2 Rock Tomb
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E3 Stone Edge
+	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E4 Head Smash
+	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E5 AncientPower
+	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E6 Power Gem
+	move LIGHT_SCREEN, NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E7 Rock Polish
+	move SCRATCH,      NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E8 Metal Claw
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E9 Steel Wing
+	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EA Iron Head
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EB Iron Tail
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL_SPEC,     100, 35 ; $EC Mirror Shot
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL_SPEC,     100, 35 ; $ED Flash Cannon
@@ -259,12 +259,11 @@ MoveEnd:
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $F4 Stealth Rock
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $F5 Toxic Spikes
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $F6 Defog
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,         100, 35 ; $F7
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $F7 Vacuum Wave
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F8 Quick Attack
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F9 Aqua Jet
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, ICE,            100, 30 ; $FA Ice Shard
+	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F9 Aqua Jet
+	move ICE_PUNCH,    NO_ADDITIONAL_EFFECT,        40, ICE,            100, 30 ; $FA Ice Shard
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, GHOST,          100, 30 ; $FB Shadow Sneak
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, STEEL,          100, 30 ; $FC Bullet Punch
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING,       100, 30 ; $FD Mach Punch
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        80, NORMAL,         100,  5 ; $FE Extremespeed
-    move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $FF Vacuum Wave
+	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        80, NORMAL,         100,  5 ; $FE Extremespeed

@@ -655,9 +655,9 @@ DragonRageAnim:
 	db $FF
 
 FireSpinAnim:
-	db $46,$52,$0C
-	db $46,$FF,$0D
-	db $46,$FF,$0E
+	db $46,$0F,$10
+	db $06,$FF,$02
+	db $10,$FF,$2F
 	db $FF
 
 ThunderShockAnim:

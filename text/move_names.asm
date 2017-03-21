@@ -245,14 +245,13 @@ MoveNames::
 	db "TACKLE@"
 	db "TACKLE@" ; 245
 	db "TACKLE@"
-	db "TACKLE@"
-	db "TACKLE@"
-	db "QUICK ATTACK@"
-	db "AQUA JET@"
-	db "ICE SHARD@"
-	db "SHADOW SNEAK@"
-	db "BULLET PUNCH@"
-	db "MACH PUNCH@"
-	db "EXTREMESPEED@" ; 255
+	db "VACUUM WAVE@"       ; F7
+	db "QUICK ATTACK@"      ; F8
+	db "AQUA JET@"          ; F9
+	db "ICE SHARD@"         ; FA
+	db "SHADOW SNEAK@"      ; FB
+	db "BULLET PUNCH@"      ; FC
+	db "MACH PUNCH@"        ; FD
+	db "EXTREMESPEED@"      ; FE
 
 
