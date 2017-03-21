@@ -7304,7 +7304,7 @@ PoisonEffect:
 	jr z, .noEffect
 	ld a, [de]
 	cp POISON_SIDE_EFFECT1
-	ld b, $34 ; ~20% chance of poisoning
+	ld b, $4D ; ~30% chance of poisoning
 	jr z, .sideEffectTest
 	cp POISON_SIDE_EFFECT2
 	ld b, $67 ; ~40% chance of poisoning
