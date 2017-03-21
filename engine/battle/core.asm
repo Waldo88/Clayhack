@@ -5334,6 +5334,7 @@ AdjustDamageForMoveType:
 	set 7,[hl]
 .skipSameTypeAttackBonus
 	ld a,[wMoveType]
+	and $DF ; Physical/Special
 	ld b,a
 	ld hl,TypeEffects
 .loop
