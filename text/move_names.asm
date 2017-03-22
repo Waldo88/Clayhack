@@ -146,7 +146,7 @@ MoveNames::
 	db "BUBBLE@"
 	db "DIZZY PUNCH@"
 	db "SPORE@"
-	db "DAZZLE GLEAM@"
+	db "FLASH@"
 	db "FORCE PALM@"
 	db "SPLASH@"
 	db "ACID ARMOR@"
@@ -245,7 +245,7 @@ MoveNames::
 	db "STEALTH ROCK@"
 	db "TOXIC SPIKES@" ; 245
 	db "DEFOG@"
-	db "VACUUM WAVE@"       ; F7
+	db "DAZZLE GLEAM@"       ; F7
 	db "QUICK ATTACK@"      ; F8
 	db "AQUA JET@"          ; F9
 	db "ICE SHARD@"         ; FA

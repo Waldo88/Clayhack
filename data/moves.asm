@@ -160,7 +160,7 @@ MoveEnd:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      40, WATER_SPEC,     100, 30 ; $91 Bubble
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, NORMAL,         100, 10 ; $92 Dizzy Punch
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,          100, 15 ; $93 Spore
-	move FLASH,        NO_ADDITIONAL_EFFECT,         0, FAIRY_SPEC,      70, 20 ; $94 Dazzle Gleam
+	move FLASH,        NO_ADDITIONAL_EFFECT,		70, STEEL_SPEC,     100, 20 ; $94 Flash
 	move POUND,        PARALYZE_SIDE_EFFECT2,       60, FIGHTING,       100, 10 ; $95 Force Palm
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,         100, 40 ; $96 Splash
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,         100, 20 ; $97 Acid Armor
@@ -259,7 +259,7 @@ MoveEnd:
 	move ROCK_THROW,   SPLASH_EFFECT,                0, ROCK,           100, 40 ; $F4 Stealth Rock
 	move FURY_ATTACK,  SPLASH_EFFECT,                0, POISON,         100, 20 ; $F5 Toxic Spikes
 	move FURY_ATTACK,  SPLASH_EFFECT,                0, FLYING,         100, 15 ; $F6 Defog
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $F7 Vacuum Wave
+	move FLASH,        NO_ADDITIONAL_EFFECT,         0, FAIRY_SPEC,      70, 20 ; $F7 Dazzle Gleam
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F8 Quick Attack
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F9 Aqua Jet
 	move ICE_PUNCH,    NO_ADDITIONAL_EFFECT,        40, ICE,            100, 30 ; $FA Ice Shard
