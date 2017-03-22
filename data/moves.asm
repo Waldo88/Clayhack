@@ -111,7 +111,7 @@ MoveEnd:
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, PSYCHIC,        100, 40 ; $60 Meditate
 	move AGILITY,      SPEED_UP2_EFFECT,             0, PSYCHIC,        100, 30 ; $61 Agility
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,         100, 10 ; $62 Outrage
-	move GUST,         FLINCH_SIDE_EFFECT2,       40, DRAGON_SPEC,    100, 20 ; $63 Twister
+	move GUST,         FLINCH_SIDE_EFFECT2,         40, DRAGON_SPEC,    100, 20 ; $63 Twister
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC,        100, 20 ; $64 Teleport
 	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        0, GHOST_SPEC,     100, 15 ; $65 Night Shade
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,         100, 10 ; $66 Mimic
@@ -178,87 +178,87 @@ MoveEnd:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,         100, 20 ; $A3 Slash
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,         100, 10 ; $A4 Substitute
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,         100, 10 ; $A5 Struggle
-	move LEECH_LIFE,   NO_ADDITIONAL_EFFECT,        35, FIGHTING,       100, 35 ; $A6 Drain Punch
-	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIGHTING,       100, 35 ; $A7 Close Combat
-	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        35, FIGHTING,       100, 35 ; $A8 Superpower
-	move PSYBEAM,      NO_ADDITIONAL_EFFECT,        35, FIGHTING,       100, 35 ; $A9 Aura Sphere
-	move HYPER_BEAM,   NO_ADDITIONAL_EFFECT,        35, FIGHTING_SPEC,  100, 35 ; $AA Focus Blast
-	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $AB Fire Fang
-	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $AC Flare Blitz
-	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $AD Flame Charge
-	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $AE Flame Wheel
-	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $AF Blaze Kick
-	move FLAMETHROWER, NO_ADDITIONAL_EFFECT,        35, FIRE_SPEC,      100, 35 ; $B0 Flame Burst
-	move FLAMETHROWER, NO_ADDITIONAL_EFFECT,        35, FIRE_SPEC,      100, 35 ; $B1 Heat Wave
-	move EMBER,        NO_ADDITIONAL_EFFECT,        35, FIRE,           100, 35 ; $B2 Will-O-Wisp
-	move CUT,          NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $B3 Aerial Ace
-	move TAKE_DOWN,    NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $B4 Brave Bird
-	move SCRATCH,      NO_ADDITIONAL_EFFECT,        35, FLYING_SPEC,    100, 35 ; $B5 Air Cutter
-	move GUILLOTINE,   NO_ADDITIONAL_EFFECT,        35, FLYING_SPEC,    100, 35 ; $B6 Air Slash
-	move WHIRLWIND,    NO_ADDITIONAL_EFFECT,       120, FLYING_SPEC,     80,  5 ; $B7 Hurricane
-	move RECOVER,      NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $B8 Roost
-	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $B9 Astonish
-	move LOVELY_KISS,  NO_ADDITIONAL_EFFECT,        35, FAIRY,          100, 35 ; $BA Charm
-	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BB Shadow Punch
-	move SLASH,        NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BC Shadow Claw
-	move FLY,          NO_ADDITIONAL_EFFECT,        35, GHOST,          100, 35 ; $BD PhantomForce
-	move GUST,         NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BE Ominous Wind
-	move CONFUSE_RAY,  NO_ADDITIONAL_EFFECT,        35, GHOST_SPEC,     100, 35 ; $BF Shadow Ball
-	move BARRAGE,      NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C0 Bullet Seed
-	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C1 Seed Bomb
-	move SLASH,        NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C2 Leaf Blade
-	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C3 Power Whip
-	move PETAL_DANCE,  NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C4 Magical Leaf
-	move MEGA_DRAIN,   NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C5 Giga Drain
-	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        35, GRASS_SPEC,     100, 35 ; $C6 Energy Ball
-	move RECOVER,      NO_ADDITIONAL_EFFECT,        35, GRASS,          100, 35 ; $C7 Synthesis
-	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C8 Bone Rush
-	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $C9 Bulldoze
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        35, GROUND,         100, 35 ; $CA Drill Run
-	move SAND_ATTACK,  NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CB Mud Slap
-	move SLUDGE,       NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CC Mud Bomb
-	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,        35, GROUND_SPEC,    100, 35 ; $CD Earth Power
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $CE Freeze Dry
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $CF Icicle Spear
-	move ICE_PUNCH,    NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $D0 Ice Fang
-	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        35, ICE,            100, 35 ; $D1 Icicle Crash
-	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D2 Powder Snow
-	move FIRE_SPIN,    NO_ADDITIONAL_EFFECT,        35, ICE_SPEC,       100, 35 ; $D3 Icy Wind, combine Gust and Ice Beam anims?
-	move GROWL,        NO_ADDITIONAL_EFFECT,        35, NORMAL_SPEC,    100, 35 ; $D4 Hyper Voice
-	move BARRIER,      NO_ADDITIONAL_EFFECT,        35, NORMAL,         100, 35 ; $D5 Protect
-	move LICK,         NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D6 Poison Fang
-	move SLASH,        NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D7 Cross Poison
-	move LICK,         NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D8 Poison Jab
-	move SLUDGE,       NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $D9 Gunk Shot
-	move SLUDGE,       NO_ADDITIONAL_EFFECT,        35, POISON_SPEC,    100, 35 ; $DA Sludge Bomb
-	move DEFENSE_CURL, NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $DB Coil
-	move SLASH,        NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DC Psycho Cut
-	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DD Zen Headbutt
-	move PSYCHIC,      NO_ADDITIONAL_EFFECT,        35, PSYCHIC_SPEC,   100, 35 ; $DE Extrasensory
-	move MEDITATE,     NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $DF Calm Mind
-	move REFLECT,      NO_ADDITIONAL_EFFECT,        35, PSYCHIC,        100, 35 ; $E0 Mirror Coat
-	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E1 Rock Blast
-	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E2 Rock Tomb
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E3 Stone Edge
-	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E4 Head Smash
-	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E5 AncientPower
-	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        35, ROCK_SPEC,      100, 35 ; $E6 Power Gem
-	move LIGHT_SCREEN, NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $E7 Rock Polish
-	move SCRATCH,      NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E8 Metal Claw
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $E9 Steel Wing
-	move HEADBUTT,     NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EA Iron Head
-	move HI_JUMP_KICK, NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EB Iron Tail
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, STEEL_SPEC,     100, 35 ; $EC Mirror Shot
-	move PSYBEAM,      NO_ADDITIONAL_EFFECT,        35, STEEL_SPEC,     100, 35 ; $ED Flash Cannon
-	move HARDEN,       NO_ADDITIONAL_EFFECT,        35, STEEL,          100, 35 ; $EE Iron Defense
-	move GUILLOTINE,   NO_ADDITIONAL_EFFECT,        35, WATER,          100, 35 ; $EF Razor Shell
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        35, WATER,          100, 35 ; $F0 Aqua Tail
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        35, WATER_SPEC,     100, 35 ; $F1 Water Pulse
-	move SURF,         NO_ADDITIONAL_EFFECT,        35, WATER_SPEC,     100, 35 ; $F2 Scald
-	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        35, NORMAL,         100, 35 ; $F3 Rapid Spin
-	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        35, ROCK,           100, 35 ; $F4 Stealth Rock
-	move FURY_ATTACK,  NO_ADDITIONAL_EFFECT,        35, POISON,         100, 35 ; $F5 Toxic Spikes
-	move FURY_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,         100, 35 ; $F6 Defog
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             75, FIGHTING,       100, 10 ; $A6 Drain Punch
+	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,       120, FIGHTING,       100,  5 ; $A7 Close Combat
+	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,       120, FIGHTING,       100,  5 ; $A8 Superpower
+	move PSYBEAM,      SWIFT_EFFECT,                80, FIGHTING,       100, 20 ; $A9 Aura Sphere
+	move HYPER_BEAM,   SPECIAL_DOWN_SIDE_EFFECT,   120, FIGHTING_SPEC,   70,  5 ; $AA Focus Blast
+	move FIRE_PUNCH,   BURN_SIDE_EFFECT1,           65, FIRE,            95, 15 ; $AB Fire Fang
+	move FIRE_PUNCH,   RECOIL_EFFECT,              120, FIRE,           100, 15 ; $AC Flare Blitz, 10% chance to burn
+	move FIRE_PUNCH,   NO_ADDITIONAL_EFFECT,        50, FIRE,           100, 20 ; $AD Flame Charge
+	move FIRE_PUNCH,   BURN_SIDE_EFFECT1,           60, FIRE,           100, 25 ; $AE Flame Wheel
+	move KARATE_CHOP,  BURN_SIDE_EFFECT1,           85, FIRE,            90, 10 ; $AF Blaze Kick
+	move FLAMETHROWER, NO_ADDITIONAL_EFFECT,        70, FIRE_SPEC,      100, 20 ; $B0 Flame Burst
+	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE_SPEC,       90, 10 ; $B1 Heat Wave
+	move EMBER,        SPLASH_EFFECT,                0, FIRE,            85, 15 ; $B2 Will-O-Wisp
+	move CUT,          SWIFT_EFFECT,                60, FLYING,         100, 20 ; $B3 Aerial Ace
+	move TAKE_DOWN,    RECOIL_EFFECT,              120, FLYING,         100, 15 ; $B4 Brave Bird
+	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        60, FLYING_SPEC,     95, 25 ; $B5 Air Cutter
+	move GUILLOTINE,   FLINCH_SIDE_EFFECT2,         75, FLYING_SPEC,     95, 15 ; $B6 Air Slash
+	move WHIRLWIND,    CONFUSION_SIDE_EFFECT,      120, FLYING_SPEC,     80,  5 ; $B7 Hurricane
+	move RECOVER,      HEAL_EFFECT,                  0, FLYING,         100, 10 ; $B8 Roost
+	move BODY_SLAM,    FLINCH_SIDE_EFFECT2,         30, GHOST,          100, 15 ; $B9 Astonish
+	move LOVELY_KISS,  ATTACK_DOWN2_EFFECT,         35, FAIRY,          100, 35 ; $BA Charm
+	move MEGA_PUNCH,   SWIFT_EFFECT,                60, GHOST,          100, 20 ; $BB Shadow Punch
+	move SLASH,        NO_ADDITIONAL_EFFECT,        70, GHOST,          100, 15 ; $BC Shadow Claw
+	move FLY,          CHARGE_EFFECT,               90, GHOST,          100, 10 ; $BD PhantomForce
+	move GUST,         SWIFT_EFFECT,                60, GHOST_SPEC,     100, 20 ; $BE Ominous Wind
+	move CONFUSE_RAY,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST_SPEC,     100, 15 ; $BF Shadow Ball
+	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, GRASS,          100, 30 ; $C0 Bullet Seed
+	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        80, GRASS,          100, 15 ; $C1 Seed Bomb
+	move SLASH,        NO_ADDITIONAL_EFFECT,        90, GRASS,          100, 15 ; $C2 Leaf Blade
+	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,       120, GRASS,           85, 10 ; $C3 Power Whip
+	move PETAL_DANCE,  SWIFT_EFFECT,                60, GRASS_SPEC,     100, 20 ; $C4 Magical Leaf
+	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             75, GRASS_SPEC,     100, 10 ; $C5 Giga Drain
+	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,        90, GRASS_SPEC,     100, 10 ; $C6 Energy Ball
+	move RECOVER,      HEAL_EFFECT,                  0, GRASS,          100,  5 ; $C7 Synthesis
+	move BONE_CLUB,    TWO_TO_FIVE_ATTACKS_EFFECT,  25, GROUND,          90, 10 ; $C8 Bone Rush
+	move EARTHQUAKE,   SPEED_DOWN_SIDE_EFFECT,      60, GROUND,         100, 20 ; $C9 Bulldoze
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        80, GROUND,          95, 10 ; $CA Drill Run
+	move SAND_ATTACK,  SPEED_DOWN_SIDE_EFFECT,      20, GROUND_SPEC,    100, 10 ; $CB Mud Slap
+	move SLUDGE,       SPEED_DOWN_SIDE_EFFECT,      65, GROUND_SPEC,     85, 10 ; $CC Mud Bomb
+	move EARTHQUAKE,   SPECIAL_DOWN_SIDE_EFFECT,    90, GROUND_SPEC,    100, 10 ; $CD Earth Power
+	move TACKLE,       FREEZE_SIDE_EFFECT,          70, ICE_SPEC,       100, 20 ; $CE Freeze Dry
+	move TACKLE,       TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,            100, 30 ; $CF Icicle Spear
+	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          65, ICE,             95, 15 ; $D0 Ice Fang
+	move BLIZZARD,     FLINCH_SIDE_EFFECT2,         85, ICE,             90, 10 ; $D1 Icicle Crash
+	move BLIZZARD,     FREEZE_SIDE_EFFECT,          40, ICE_SPEC,       100, 25 ; $D2 Powder Snow
+	move FIRE_SPIN,    SPEED_DOWN_SIDE_EFFECT,      55, ICE_SPEC,        95, 15 ; $D3 Icy Wind, combine Gust and Ice Beam anims?
+	move GROWL,        NO_ADDITIONAL_EFFECT,        90, NORMAL_SPEC,    100, 10 ; $D4 Hyper Voice
+	move BARRIER,      SPLASH_EFFECT,                0, NORMAL,         100, 10 ; $D5 Protect
+	move LICK,         POISON_SIDE_EFFECT2,         50, POISON,         100, 15 ; $D6 Poison Fang
+	move SLASH,        POISON_SIDE_EFFECT1,         70, POISON,         100, 20 ; $D7 Cross Poison
+	move LICK,         POISON_SIDE_EFFECT1,         80, POISON,         100, 20 ; $D8 Poison Jab
+	move SLUDGE,       POISON_SIDE_EFFECT1,        120, POISON,          85,  5 ; $D9 Gunk Shot
+	move SLUDGE,       POISON_SIDE_EFFECT1,         90, POISON_SPEC,    100, 10 ; $DA Sludge Bomb
+	move DEFENSE_CURL, ATTACK_UP1_EFFECT,            0, POISON,         100, 20 ; $DB Coil
+	move SLASH,        NO_ADDITIONAL_EFFECT,        70, PSYCHIC,        100, 20 ; $DC Psycho Cut
+	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         80, PSYCHIC,         90, 15 ; $DD Zen Headbutt
+	move PSYCHIC,      FLINCH_SIDE_EFFECT1,         80, PSYCHIC_SPEC,   100, 20 ; $DE Extrasensory
+	move MEDITATE,     SPECIAL_UP1_EFFECT,           0, PSYCHIC,        100, 20 ; $DF Calm Mind
+	move REFLECT,      NO_ADDITIONAL_EFFECT,         1, PSYCHIC,        100, 20 ; $E0 Mirror Coat
+	move ROCK_THROW,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,            90, 10 ; $E1 Rock Blast
+	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        60, ROCK,            95, 15 ; $E2 Rock Tomb
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,       100, ROCK,            80,  5 ; $E3 Stone Edge
+	move HEADBUTT,     NO_ADDITIONAL_EFFECT,       120, ROCK,            90,  5 ; $E4 Head Smash
+	move ROCK_SLIDE,   SWIFT_EFFECT,                60, ROCK_SPEC,      100, 20 ; $E5 AncientPower
+	move BLIZZARD,     NO_ADDITIONAL_EFFECT,        80, ROCK_SPEC,      100, 20 ; $E6 Power Gem
+	move LIGHT_SCREEN, SPEED_UP2_EFFECT,             0, ROCK,           100, 20 ; $E7 Rock Polish
+	move SCRATCH,      DEFENSE_DOWN_SIDE_EFFECT,    50, STEEL,           95, 35 ; $E8 Metal Claw
+	move WING_ATTACK,  ATTACK_DOWN_SIDE_EFFECT,     70, STEEL,           95, 25 ; $E9 Steel Wing
+	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         80, STEEL,          100, 15 ; $EA Iron Head
+	move HI_JUMP_KICK, DEFENSE_DOWN_SIDE_EFFECT,   100, STEEL,           85, 15 ; $EB Iron Tail
+	move TACKLE,       NO_ADDITIONAL_EFFECT,        65, STEEL_SPEC,      85, 10 ; $EC Mirror Shot
+	move PSYBEAM,      SPECIAL_DOWN_SIDE_EFFECT,    80, STEEL_SPEC,     100, 10 ; $ED Flash Cannon
+	move HARDEN,       DEFENSE_UP2_EFFECT,           0, STEEL,          100, 15 ; $EE Iron Defense
+	move GUILLOTINE,   DEFENSE_DOWN_SIDE_EFFECT,    75, WATER,           95, 10 ; $EF Razor Shell
+	move WATERFALL,    NO_ADDITIONAL_EFFECT,        90, WATER,           90, 10 ; $F0 Aqua Tail
+	move WATERFALL,    CONFUSION_SIDE_EFFECT,       60, WATER_SPEC,     100, 20 ; $F1 Water Pulse
+	move SURF,         BURN_SIDE_EFFECT2,           80, WATER_SPEC,     100, 15 ; $F2 Scald
+	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        20, NORMAL,         100, 40 ; $F3 Rapid Spin
+	move ROCK_THROW,   SPLASH_EFFECT,                0, ROCK,           100, 40 ; $F4 Stealth Rock
+	move FURY_ATTACK,  SPLASH_EFFECT,                0, POISON,         100, 20 ; $F5 Toxic Spikes
+	move FURY_ATTACK,  SPLASH_EFFECT,                0, FLYING,         100, 15 ; $F6 Defog
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $F7 Vacuum Wave
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F8 Quick Attack
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F9 Aqua Jet
