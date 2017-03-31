@@ -46,14 +46,14 @@ _ReceivedTM41Text::
 	text "!@@"
 
 _TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+	text "TM36 teaches"
+	line "SLUDGE BOMB!"
 
-	para "Only one #MON"
-	line "can use it!"
+	para "It deals"
+	line "poison damage!"
 
-	para "That #MON is"
-	line "CHANSEY!"
+	para "It can inflict"
+	line "poison status!"
 	done
 
 _TM41NoRoomText::

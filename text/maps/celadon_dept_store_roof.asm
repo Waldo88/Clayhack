@@ -24,10 +24,10 @@ _CeladonMartRoofText_484fe::
 	para "@"
 	TX_RAM wcf4b
 	text " contains"
-	line "ICE BEAM!"
+	line "PROTECT!"
 
-	para "It can freeze the"
-	line "target sometimes!@@"
+	para "It protects you"
+	line "from attacks!@@"
 
 _CeladonMartRoofText_48504::
 	text "Yay!"
@@ -50,10 +50,10 @@ _CeladonMartRoofText_4850f::
 	para "@"
 	TX_RAM wcf4b
 	text " contains"
-	line "ROCK SLIDE!"
+	line "REFLECT!"
 
-	para "It can spook the"
-	line "target sometimes!@@"
+	para "It raises your"
+	line "party's DEF!@@"
 
 _CeladonMartRoofText_48515::
 	text "Yay!"
@@ -67,12 +67,12 @@ _CeladonMartRoofText_48515::
 
 _ReceivedTM49Text::
 	text $52, " received"
-	line "TM49!@@"
+	line "TM48!@@"
 
 _CeladonMartRoofText_48520::
 	db $0
-	para "TM49 contains"
-	line "TRI ATTACK!@@"
+	para "TM48 contains"
+	line "LIGHT SCREEN!@@"
 
 _CeladonMartRoofText_48526::
 	text "You don't have"

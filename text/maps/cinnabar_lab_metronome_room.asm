@@ -1,5 +1,5 @@
 _TM35PreReceiveText::
-	text "Tch-tch-tch!"
+	text "Behold!!!"
 	line "I made a cool TM!"
 
 	para "It can cause all"
@@ -13,14 +13,15 @@ _ReceivedTM35Text::
 	text "!@@"
 
 _TM35ExplanationText::
-	text "Tch-tch-tch!"
+	text "KABOOM!"
 	line "That's the sound"
-	cont "of a METRONOME!"
+	cont "of HYPER BEAM!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "It deals intense"
+	line "damage! So much"
+	cont "damage that your"
+	cont "#MON will have to"
+    cont "recharge!"
 	done
 
 _TM35NoRoomText::

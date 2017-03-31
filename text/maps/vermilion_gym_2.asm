@@ -31,8 +31,8 @@ _ReceivedTM24Text::
 
 _TM24ExplanationText::
 	db $0
-	para "TM24 contains"
-	line "THUNDERBOLT!"
+	para "TM23 contains"
+	line "THUNDERPUNCH!"
 
 	para "Teach it to an"
 	line "electric #MON!"

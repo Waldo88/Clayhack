@@ -61,14 +61,14 @@ _ViridianGymText12::
 
 _ReceivedTM27Text::
 	text $52, " received"
-	line "TM27!@@"
+	line "TM26!@@"
 
 _TM27ExplanationText::
 	db $0
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "TM26 is"
+	line "Earthquake! It's"
+	cont "a very powerful"
+	cont "ground attack!"
 
 	para "I made it when I"
 	line "ran the GYM here,"

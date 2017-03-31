@@ -19,7 +19,7 @@ _CeruleanGymText_5c7be::
 
 _CeruleanGymText_5c7c3::
 	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	line "WATER PULSE!"
 
 	para "Use it on an"
 	line "aquatic #MON!"
