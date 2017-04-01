@@ -34,15 +34,15 @@ _ReceivedTM31Text::
 
 _TM31ExplanationText1::
 	db $0
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM50 contains"
+	line "SUBSTITUTE!"
 
 	para "Use it on a good"
 	line "#MON!@@"
 
 _TM31ExplanationText2::
 	text $52, ": Hi!"
-	line "Thanks for TM31!"
+	line "Thanks for TM50!"
 
 	para $52, ": Pardon?"
 

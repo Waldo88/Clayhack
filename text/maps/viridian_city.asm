@@ -73,22 +73,22 @@ _ViridianCityText_191ca::
 	para "I had this dream"
 	line "about a DROWZEE"
 	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	cont "It left me"
+	cont "paralyzed..."
+	cont "Just like..."
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "How this TM will"
+	line "do the same to"
+	cont "your foe!"
 	prompt
 
 _ReceivedTM42Text::
 	text $52, " received"
-	line "TM42!@@"
+	line "TM45!@@"
 
 _TM42Explanation::
-	text "TM42 contains"
-	line "DREAM EATER..."
+	text "TM45 contains"
+	line "THUNDER WAVE..."
 	cont "...Snore..."
 	done
 

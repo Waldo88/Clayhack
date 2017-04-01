@@ -16,13 +16,13 @@ _ReceivedTM36Text::
 	text "!@@"
 
 _TM36ExplanationText::
-	text "TM36 is"
-	line "SELFDESTRUCT!"
+	text "TM09 is"
+	line "SCALD!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "It's not as strong"
+	line "as SURF, but it"
+	cont "can inflict a"
+	cont "burn on your foe!"
 	done
 
 _TM36NoRoomText::

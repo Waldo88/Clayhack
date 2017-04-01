@@ -60,13 +60,13 @@ ENDC
 	db "@"
 
 PrizeMenuTMsEntries:
-	db TM_23
-	db TM_15
-	db TM_50
+	db TM_13
+	db TM_24
+	db TM_35
 	db "@"
 
 PrizeMenuTMsCost:
-	coins 3300
-	coins 5500
-	coins 7700
+	coins 2000
+	coins 2000
+	coins 2000
 	db "@"

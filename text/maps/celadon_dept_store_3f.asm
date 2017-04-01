@@ -14,10 +14,9 @@ _ReceivedTM18Text::
 	text "!@@"
 
 _TM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM03 is SWORDS!"
+	line "DANCE! It'll"
+	cont "keep you sharp!"
 	done
 
 _TM18NoRoomText::

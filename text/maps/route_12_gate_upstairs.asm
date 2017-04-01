@@ -10,16 +10,16 @@ _TM39PreReceiveText::
 
 _ReceivedTM39Text::
 	text $52, " received"
-	line "TM39!@@"
+	line "TM34!@@"
 
 _TM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+	text "TM34 is a move"
+	line "called FIRE PUNCH."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "It packs a fiery,"
+	line "punch! It also has"
+	cont "the chance to burn"
+	cont "your opponent."
 	done
 
 _TM39NoRoomText::
