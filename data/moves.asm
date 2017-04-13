@@ -94,7 +94,7 @@ MoveEnd:
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,           75, 15 ; $4F Sleep Powder
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,  120, GRASS_SPEC,     100, 10 ; $50 Petal Dance
 	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, BUG,             95, 40 ; $51 String Shot
-	move FURY_ATTACK,  SPLASH_EFFECT,                0, GROUND,         100, 20 ; $52 Spikes
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,       100, FIGHTING,        80,  5 ; $52 Cross Chop
 	move FURY_SWIPES,  NO_ADDITIONAL_EFFECT,        15, DRAGON,          80, 15 ; $53 Dragon Claw
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC_SPEC,  100, 30 ; $54 Thundershock
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       90, ELECTRIC_SPEC,  100, 15 ; $55 Thunderbolt
@@ -160,7 +160,7 @@ MoveEnd:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      40, WATER_SPEC,     100, 30 ; $91 Bubble
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, NORMAL,         100, 10 ; $92 Dizzy Punch
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,          100, 15 ; $93 Spore
-	move FLASH,        NO_ADDITIONAL_EFFECT,		70, STEEL_SPEC,     100, 20 ; $94 Flash
+	move FLASH,        NO_ADDITIONAL_EFFECT,        70, STEEL_SPEC,     100, 20 ; $94 Flash
 	move POUND,        PARALYZE_SIDE_EFFECT2,       60, FIGHTING,       100, 10 ; $95 Force Palm
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,         100, 40 ; $96 Splash
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,         100, 20 ; $97 Acid Armor
@@ -255,15 +255,15 @@ MoveEnd:
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        90, WATER,           90, 10 ; $F0 Aqua Tail
 	move WATERFALL,    CONFUSION_SIDE_EFFECT,       60, WATER_SPEC,     100, 20 ; $F1 Water Pulse
 	move SURF,         BURN_SIDE_EFFECT2,           80, WATER_SPEC,     100, 15 ; $F2 Scald
-	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        20, NORMAL,         100, 40 ; $F3 Rapid Spin
-	move ROCK_THROW,   SPLASH_EFFECT,                0, ROCK,           100, 40 ; $F4 Stealth Rock
-	move FURY_ATTACK,  SPLASH_EFFECT,                0, POISON,         100, 20 ; $F5 Toxic Spikes
-	move FURY_ATTACK,  SPLASH_EFFECT,                0, FLYING,         100, 15 ; $F6 Defog
-	move FLASH,        NO_ADDITIONAL_EFFECT,         0, FAIRY_SPEC,      70, 20 ; $F7 Dazzle Gleam
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F8 Quick Attack
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F9 Aqua Jet
-	move ICE_PUNCH,    NO_ADDITIONAL_EFFECT,        40, ICE,            100, 30 ; $FA Ice Shard
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, GHOST,          100, 30 ; $FB Shadow Sneak
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, STEEL,          100, 30 ; $FC Bullet Punch
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING,       100, 30 ; $FD Mach Punch
-	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        80, NORMAL,         100,  5 ; $FE Extremespeed
+	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        20, DRAGON,         100, 40 ; $F3 Dual Chop
+	move ROCK_THROW,   SPLASH_EFFECT,                0, ROCK,           100, 40 ; $F4 Aurora Beam
+	move FURY_ATTACK,  SPLASH_EFFECT,                0, POISON,         100, 20 ; $F5 Fury Attack
+	move FLASH,        NO_ADDITIONAL_EFFECT,         0, FAIRY_SPEC,      70, 20 ; $F6 Dazzle Gleam
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F7 Quick Attack
+	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F8 Aqua Jet
+	move ICE_PUNCH,    NO_ADDITIONAL_EFFECT,        40, ICE,            100, 30 ; $F9 Ice Shard
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, GHOST,          100, 30 ; $FA Shadow Sneak
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, STEEL,          100, 30 ; $FB Bullet Punch
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING,       100, 30 ; $FC Mach Punch
+	move BODY_SLAM,    NO_ADDITIONAL_EFFECT,        80, NORMAL,         100,  5 ; $FD Extremespeed
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, FIGHTING_SPEC,  100, 30 ; $FE Vacuum Wave
