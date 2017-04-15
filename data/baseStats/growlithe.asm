@@ -13,7 +13,7 @@ dw GrowlithePicFront
 dw GrowlithePicBack
 ; attacks known at lvl 0
 db BITE_MOVE
-db ROAR_ROAR
+db ROAR_MOVE
 db 0
 db 0
 db 5 ; growth rate
