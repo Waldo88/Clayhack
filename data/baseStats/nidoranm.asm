@@ -12,8 +12,8 @@ INCBIN "pic/bmon/nidoranm.pic",0,1 ; 55, sprite dimensions
 dw NidoranMPicFront
 dw NidoranMPicBack
 ; attacks known at lvl 0
-db LEER
-db TACKLE
+db LEER_MOVE
+db TACKLE_MOVE
 db 0
 db 0
 db 3 ; growth rate

@@ -12,7 +12,7 @@ INCBIN "pic/bmon/metapod.pic",0,1 ; 55, sprite dimensions
 dw MetapodPicFront
 dw MetapodPicBack
 ; attacks known at lvl 0
-db HARDEN
+db HARDEN_MOVE
 db 0
 db 0
 db 0

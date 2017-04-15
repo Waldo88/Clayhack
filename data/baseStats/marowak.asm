@@ -12,10 +12,10 @@ INCBIN "pic/bmon/marowak.pic",0,1 ; 66, sprite dimensions
 dw MarowakPicFront
 dw MarowakPicBack
 ; attacks known at lvl 0
-db BONE_CLUB
-db GROWL
-db LEER
-db FOCUS_ENERGY
+db HEADBUTT_MOVE
+db GROWL_MOVE
+db LEER_MOVE
+db LOW_KICK_MOVE
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

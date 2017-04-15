@@ -12,8 +12,8 @@ INCBIN "pic/bmon/shellder.pic",0,1 ; 55, sprite dimensions
 dw ShellderPicFront
 dw ShellderPicBack
 ; attacks known at lvl 0
-db TACKLE
-db WITHDRAW
+db TACKLE_MOVE
+db WATER_GUN_MOVE
 db 0
 db 0
 db 5 ; growth rate

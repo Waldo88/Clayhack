@@ -12,10 +12,10 @@ INCBIN "pic/bmon/primeape.pic",0,1 ; 77, sprite dimensions
 dw PrimeapePicFront
 dw PrimeapePicBack
 ; attacks known at lvl 0
-db SCRATCH
-db LEER
-db KARATE_CHOP
-db FURY_SWIPES
+db SCRATCH_MOVE
+db LEER_MOVE
+db LOW_KICK_MOVE
+db FURY_SWIPES_MOVE
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

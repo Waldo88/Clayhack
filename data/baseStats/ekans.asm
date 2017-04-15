@@ -12,8 +12,8 @@ INCBIN "pic/bmon/ekans.pic",0,1 ; 55, sprite dimensions
 dw EkansPicFront
 dw EkansPicBack
 ; attacks known at lvl 0
-db WRAP
-db LEER
+db TACKLE_MOVE
+db LEER_MOVE
 db 0
 db 0
 db 0 ; growth rate

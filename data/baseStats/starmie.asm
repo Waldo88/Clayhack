@@ -12,9 +12,9 @@ INCBIN "pic/bmon/starmie.pic",0,1 ; 66, sprite dimensions
 dw StarmiePicFront
 dw StarmiePicBack
 ; attacks known at lvl 0
-db TACKLE
-db WATER_GUN
-db HARDEN
+db TACKLE_MOVE
+db WATER_GUN_MOVE
+db HARDEN_MOVE
 db 0
 db 5 ; growth rate
 ; learnset

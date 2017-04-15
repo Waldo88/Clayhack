@@ -12,8 +12,8 @@ INCBIN "pic/bmon/magnemite.pic",0,1 ; 55, sprite dimensions
 dw MagnemitePicFront
 dw MagnemitePicBack
 ; attacks known at lvl 0
-db TACKLE
-db 0
+db TACKLE_MOVE
+db SUPERSONIC_MOVE
 db 0
 db 0
 db 0 ; growth rate

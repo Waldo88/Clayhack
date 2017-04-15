@@ -12,8 +12,8 @@ INCBIN "pic/bmon/spearow.pic",0,1 ; 55, sprite dimensions
 dw SpearowPicFront
 dw SpearowPicBack
 ; attacks known at lvl 0
-db PECK
-db GROWL
+db PECK_MOVE
+db GROWL_MOVE
 db 0
 db 0
 db 0 ; growth rate

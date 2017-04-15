@@ -12,9 +12,9 @@ INCBIN "pic/bmon/eevee.pic",0,1 ; 55, sprite dimensions
 dw EeveePicFront
 dw EeveePicBack
 ; attacks known at lvl 0
-db TACKLE
-db SAND_ATTACK
-db 0
+db TACKLE_MOVE
+db TAIL_WHIP_MOVE
+db GROWL_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

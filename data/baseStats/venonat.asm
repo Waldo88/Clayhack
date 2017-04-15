@@ -12,8 +12,8 @@ INCBIN "pic/bmon/venonat.pic",0,1 ; 55, sprite dimensions
 dw VenonatPicFront
 dw VenonatPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
+db TACKLE_MOVE
+db DISABLE_MOVE
 db 0
 db 0
 db 0 ; growth rate

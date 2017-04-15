@@ -12,7 +12,7 @@ INCBIN "pic/bmon/poliwag.pic",0,1 ; 55, sprite dimensions
 dw PoliwagPicFront
 dw PoliwagPicBack
 ; attacks known at lvl 0
-db BUBBLE
+db WATER_GUN_MOVE
 db 0
 db 0
 db 0

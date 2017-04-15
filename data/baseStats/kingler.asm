@@ -12,9 +12,9 @@ INCBIN "pic/bmon/kingler.pic",0,1 ; 77, sprite dimensions
 dw KinglerPicFront
 dw KinglerPicBack
 ; attacks known at lvl 0
-db BUBBLE
-db LEER
-db VICEGRIP
+db WATER_GUN_MOVE
+db SCRATCH_MOVE
+db LEER_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

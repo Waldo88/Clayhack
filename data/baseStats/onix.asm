@@ -12,8 +12,8 @@ INCBIN "pic/bmon/onix.pic",0,1 ; 77, sprite dimensions
 dw OnixPicFront
 dw OnixPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
+db TACKLE_MOVE
+db HARDEN_MOVE
 db 0
 db 0
 db 0 ; growth rate

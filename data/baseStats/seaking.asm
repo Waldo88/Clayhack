@@ -12,9 +12,9 @@ INCBIN "pic/bmon/seaking.pic",0,1 ; 77, sprite dimensions
 dw SeakingPicFront
 dw SeakingPicBack
 ; attacks known at lvl 0
-db PECK
-db TAIL_WHIP
-db SUPERSONIC
+db PECK_MOVE
+db TAIL_WHIP_MOVE
+db SUPERSONIC_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

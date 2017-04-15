@@ -80,7 +80,7 @@ MoveNames::
 	db "SLEEP POWDER@"
 	db "PETAL DANCE@"
 	db "STRING SHOT@"
-	db "SPIKES@"
+	db "CROSS CHOP@"
 	db "DRAGON CLAW@"
 	db "THUNDERSHOCK@"
 	db "THUNDERBOLT@"
@@ -143,7 +143,7 @@ MoveNames::
 	db "LOVELY KISS@"
 	db "MOONBLAST@"
 	db "TRANSFORM@"
-	db "BUBBLE@"
+	db "BOOMBURST@"
 	db "DIZZY PUNCH@"
 	db "SPORE@"
 	db "FLASH@"
@@ -241,10 +241,9 @@ MoveNames::
 	db "AQUA TAIL@"
 	db "WATER PULSE@"
 	db "SCALD@"
-	db "RAPID SPIN@"
-	db "STEALTH ROCK@"
-	db "TOXIC SPIKES@" ; 245
-	db "DEFOG@"
+	db "DUAL CHOP@"
+	db "AURORA BEAM@"
+	db "FURY ATTACK@" ; 245
 	db "DAZZLE GLEAM@"       ; F7
 	db "QUICK ATTACK@"      ; F8
 	db "AQUA JET@"          ; F9
@@ -253,5 +252,6 @@ MoveNames::
 	db "BULLET PUNCH@"      ; FC
 	db "MACH PUNCH@"        ; FD
 	db "EXTREMESPEED@"      ; FE
+    db "VACUUM WAVE@"
 
 

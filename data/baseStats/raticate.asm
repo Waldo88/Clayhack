@@ -12,8 +12,8 @@ INCBIN "pic/bmon/raticate.pic",0,1 ; 66, sprite dimensions
 dw RaticatePicFront
 dw RaticatePicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
+db TACKLE_MOVE
+db TAIL_WHIP_MOVE
 db QUICK_ATTACK_MOVE
 db 0
 db 0 ; growth rate

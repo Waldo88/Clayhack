@@ -12,10 +12,10 @@ INCBIN "pic/bmon/dragonite.pic",0,1 ; 77, sprite dimensions
 dw DragonitePicFront
 dw DragonitePicBack
 ; attacks known at lvl 0
-db WRAP
-db LEER
-db THUNDER_WAVE
-db AGILITY
+db POUND_MOVE
+db LEER_MOVE
+db THUNDER_WAVE_MOVE
+db WING_ATTACK_MOVE
 db 5 ; growth rate
 ; learnset
 	tmlearn 2,6,7,8

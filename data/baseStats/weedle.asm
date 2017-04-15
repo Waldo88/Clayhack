@@ -12,8 +12,8 @@ INCBIN "pic/bmon/weedle.pic",0,1 ; 55, sprite dimensions
 dw WeedlePicFront
 dw WeedlePicBack
 ; attacks known at lvl 0
-db POISON_STING
-db STRING_SHOT
+db POISON_STING_MOVE
+db STRING_SHOT_MOVE
 db 0
 db 0
 db 0 ; growth rate

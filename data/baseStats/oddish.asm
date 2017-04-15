@@ -12,8 +12,8 @@ INCBIN "pic/bmon/oddish.pic",0,1 ; 55, sprite dimensions
 dw OddishPicFront
 dw OddishPicBack
 ; attacks known at lvl 0
-db ABSORB
-db 0
+db ABSORB_MOVE
+db GROWTH_MOVE
 db 0
 db 0
 db 3 ; growth rate

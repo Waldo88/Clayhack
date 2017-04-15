@@ -12,8 +12,8 @@ INCBIN "pic/bmon/chansey.pic",0,1 ; 66, sprite dimensions
 dw ChanseyPicFront
 dw ChanseyPicBack
 ; attacks known at lvl 0
-db POUND
-db DOUBLESLAP
+db POUND_MOVE
+db DEFENSE_CURL_MOVE
 db 0
 db 0
 db 4 ; growth rate

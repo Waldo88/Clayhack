@@ -13,7 +13,7 @@ dw ElectabuzzPicFront
 dw ElectabuzzPicBack
 ; attacks known at lvl 0
 db QUICK_ATTACK_MOVE
-db LEER
+db LEER_MOVE
 db 0
 db 0
 db 0 ; growth rate

@@ -12,9 +12,9 @@ INCBIN "pic/bmon/electrode.pic",0,1 ; 55, sprite dimensions
 dw ElectrodePicFront
 dw ElectrodePicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
-db SONICBOOM
+db TACKLE_MOVE
+db SCREECH_MOVE
+db SPARK_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

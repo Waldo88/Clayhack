@@ -12,8 +12,8 @@ INCBIN "pic/bmon/kabuto.pic",0,1 ; 55, sprite dimensions
 dw KabutoPicFront
 dw KabutoPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db HARDEN
+db SCRATCH_MOVE
+db HARDEN_MOVE
 db 0
 db 0
 db 0 ; growth rate

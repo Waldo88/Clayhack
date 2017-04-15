@@ -12,7 +12,7 @@ INCBIN "pic/bmon/seel.pic",0,1 ; 66, sprite dimensions
 dw SeelPicFront
 dw SeelPicBack
 ; attacks known at lvl 0
-db HEADBUTT
+db HEADBUTT_MOVE
 db 0
 db 0
 db 0

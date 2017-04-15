@@ -12,9 +12,9 @@ INCBIN "pic/bmon/alakazam.pic",0,1 ; 77, sprite dimensions
 dw AlakazamPicFront
 dw AlakazamPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db CONFUSION
-db DISABLE
+db TELEPORT_MOVE
+db CONFUSION_MOVE
+db DISABLE_MOVE
 db 0
 db 3 ; growth rate
 ; learnset

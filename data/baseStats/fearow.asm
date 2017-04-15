@@ -12,9 +12,9 @@ INCBIN "pic/bmon/fearow.pic",0,1 ; 77, sprite dimensions
 dw FearowPicFront
 dw FearowPicBack
 ; attacks known at lvl 0
-db PECK
-db GROWL
-db LEER
+db PECK_MOVE
+db GROWL_MOVE
+db LEER_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

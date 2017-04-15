@@ -12,10 +12,10 @@ INCBIN "pic/bmon/poliwrath.pic",0,1 ; 77, sprite dimensions
 dw PoliwrathPicFront
 dw PoliwrathPicBack
 ; attacks known at lvl 0
-db HYPNOSIS
-db WATER_GUN
-db DOUBLESLAP
-db BODY_SLAM
+db HYPNOSIS_MOVE
+db WATER_GUN_MOVE
+db DOUBLESLAP_MOVE
+db BODY_SLAM_MOVE
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

@@ -13,7 +13,7 @@ INCBIN "pic/bmon/mew.pic",0,1 ; 55, sprite dimensions
 dw MewPicFront
 dw MewPicBack
 ; attacks known at lvl 0
-db POUND
+db POUND_MOVE
 db 0
 db 0
 db 0

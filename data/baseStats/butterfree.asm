@@ -12,7 +12,7 @@ INCBIN "pic/bmon/butterfree.pic",0,1 ; 77, sprite dimensions
 dw ButterfreePicFront
 dw ButterfreePicBack
 ; attacks known at lvl 0
-db CONFUSION
+db CONFUSION_MOVE
 db 0
 db 0
 db 0

@@ -12,10 +12,10 @@ INCBIN "pic/bmon/rhydon.pic",0,1 ; 77, sprite dimensions
 dw RhydonPicFront
 dw RhydonPicBack
 ; attacks known at lvl 0
-db HORN_ATTACK
-db STOMP
-db TAIL_WHIP
-db FURY_ATTACK
+db HORN_ATTACK_MOVE
+db ROCK_THROW_MOVE
+db TAIL_WHIP_MOVE
+db FURY_ATTACK_MOVE
 db 5 ; growth rate
 ; learnset
 	tmlearn 1,5,6,7,8

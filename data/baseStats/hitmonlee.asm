@@ -12,8 +12,8 @@ INCBIN "pic/bmon/hitmonlee.pic",0,1 ; 77, sprite dimensions
 dw HitmonleePicFront
 dw HitmonleePicBack
 ; attacks known at lvl 0
-db DOUBLE_KICK
-db MEDITATE
+db LOW_KICK_MOVE
+db 0
 db 0
 db 0
 db 0 ; growth rate

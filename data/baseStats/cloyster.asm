@@ -5,17 +5,17 @@ db 180 ; base defense
 db 70 ; base speed
 db 85 ; base special
 db WATER ; species type 1
-db ICE ; species type 2
+db STEEL ; species type 2
 db 60 ; catch rate
 db 203 ; base exp yield
 INCBIN "pic/bmon/cloyster.pic",0,1 ; 77, sprite dimensions
 dw CloysterPicFront
 dw CloysterPicBack
 ; attacks known at lvl 0
-db WITHDRAW
-db SUPERSONIC
-db CLAMP
-db AURORA_BEAM
+db WITHDRAW_MOVE
+db SUPERSONIC_MOVE
+db TACKLE_MOVE
+db WATER_GUN_MOVE
 db 5 ; growth rate
 ; learnset
 	tmlearn 6

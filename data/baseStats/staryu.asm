@@ -12,8 +12,8 @@ INCBIN "pic/bmon/staryu.pic",0,1 ; 66, sprite dimensions
 dw StaryuPicFront
 dw StaryuPicBack
 ; attacks known at lvl 0
-db TACKLE
-db 0
+db TACKLE_MOVE
+db HARDEN_MOVE
 db 0
 db 0
 db 5 ; growth rate

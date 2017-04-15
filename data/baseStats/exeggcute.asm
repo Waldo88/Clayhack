@@ -12,8 +12,8 @@ INCBIN "pic/bmon/exeggcute.pic",0,1 ; 77, sprite dimensions
 dw ExeggcutePicFront
 dw ExeggcutePicBack
 ; attacks known at lvl 0
-db BARRAGE
-db HYPNOSIS
+db ABSORB_MOVE
+db HYPNOSIS_MOVE
 db 0
 db 0
 db 5 ; growth rate

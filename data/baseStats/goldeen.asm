@@ -12,8 +12,8 @@ INCBIN "pic/bmon/goldeen.pic",0,1 ; 66, sprite dimensions
 dw GoldeenPicFront
 dw GoldeenPicBack
 ; attacks known at lvl 0
-db PECK
-db TAIL_WHIP
+db PECK_MOVE
+db TAIL_WHIP_MOVE
 db 0
 db 0
 db 0 ; growth rate

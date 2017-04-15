@@ -12,7 +12,7 @@ INCBIN "pic/bmon/abra.pic",0,1 ; 55, sprite dimensions
 dw AbraPicFront
 dw AbraPicBack
 ; attacks known at lvl 0
-db TELEPORT
+db TELEPORT_MOVE
 db 0
 db 0
 db 0

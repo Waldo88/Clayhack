@@ -1,5 +1,5 @@
 ; These are constants to use in mon learnsets and Base Stats pages
-PRIORITY_CONST      EQU $F8
+PRIORITY_CONST      EQU $F7
 
 POUND_MOVE          EQU $01
 KARATE_CHOP_MOVE    EQU $02

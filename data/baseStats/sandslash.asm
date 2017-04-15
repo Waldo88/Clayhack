@@ -12,9 +12,9 @@ INCBIN "pic/bmon/sandslash.pic",0,1 ; 66, sprite dimensions
 dw SandslashPicFront
 dw SandslashPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db SAND_ATTACK
-db 0
+db SCRATCH_MOVE
+db SAND_ATTACK_MOVE
+db DEFENSE_CURL_MOVE
 db 0
 db 0 ; growth rate
 ; learnset

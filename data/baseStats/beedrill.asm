@@ -12,7 +12,7 @@ INCBIN "pic/bmon/beedrill.pic",0,1 ; 77, sprite dimensions
 dw BeedrillPicFront
 dw BeedrillPicBack
 ; attacks known at lvl 0
-db FURY_ATTACK
+db FURY_ATTACK_MOVE
 db 0
 db 0
 db 0

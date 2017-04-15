@@ -12,9 +12,9 @@ INCBIN "pic/bmon/porygon.pic",0,1 ; 66, sprite dimensions
 dw PorygonPicFront
 dw PorygonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SHARPEN
-db CONVERSION
+db TACKLE_MOVE
+db CONVERSION_MOVE
+db 0
 db 0
 db 0 ; growth rate
 ; learnset

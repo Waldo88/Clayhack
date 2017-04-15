@@ -12,8 +12,8 @@ INCBIN "pic/bmon/caterpie.pic",0,1 ; 55, sprite dimensions
 dw CaterpiePicFront
 dw CaterpiePicBack
 ; attacks known at lvl 0
-db TACKLE
-db STRING_SHOT
+db TACKLE_MOVE
+db STRING_SHOT_MOVE
 db 0
 db 0
 db 0 ; growth rate

@@ -12,9 +12,9 @@ INCBIN "pic/bmon/zapdos.pic",0,1 ; 77, sprite dimensions
 dw ZapdosPicFront
 dw ZapdosPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
-db DRILL_PECK
-db 0
+db THUNDERSHOCK_MOVE
+db PECK_MOVE
+db ROOST_MOVE
 db 0
 db 5 ; growth rate
 ; learnset

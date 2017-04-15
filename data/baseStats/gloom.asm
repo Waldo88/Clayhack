@@ -12,9 +12,9 @@ INCBIN "pic/bmon/gloom.pic",0,1 ; 66, sprite dimensions
 dw GloomPicFront
 dw GloomPicBack
 ; attacks known at lvl 0
-db ABSORB
-db POISONPOWDER
-db STUN_SPORE
+db ABSORB_MOVE
+db GROWTH_MOVE
+db 0
 db 0
 db 3 ; growth rate
 ; learnset

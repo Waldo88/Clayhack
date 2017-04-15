@@ -12,7 +12,7 @@ INCBIN "pic/bmon/tauros.pic",0,1 ; 77, sprite dimensions
 dw TaurosPicFront
 dw TaurosPicBack
 ; attacks known at lvl 0
-db TACKLE
+db TACKLE_MOVE
 db 0
 db 0
 db 0

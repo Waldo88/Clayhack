@@ -12,9 +12,9 @@ INCBIN "pic/bmon/magneton.pic",0,1 ; 66, sprite dimensions
 dw MagnetonPicFront
 dw MagnetonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SONICBOOM
-db THUNDERSHOCK
+db TACKLE_MOVE
+db SUPERSONIC_MOVE
+db THUNDERSHOCK_MOVE
 db 0
 db 0 ; growth rate
 ; learnset
