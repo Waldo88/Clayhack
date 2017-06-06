@@ -18,11 +18,11 @@ db DISABLE_MOVE
 db CONFUSION_MOVE
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20
-	tmlearn 29,30,31,32
-	tmlearn 33,34,35,40
-	tmlearn 42,44,45,46
-	tmlearn 49,50,55
+    tmlearn 4,6,8
+    tmlearn 12,15,16
+    tmlearn 17,20,23
+    tmlearn 29,30,31,32
+    tmlearn 33,34
+    tmlearn 43,45,47,48
+    tmlearn 50,55
 db 0 ; padding

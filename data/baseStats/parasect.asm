@@ -18,11 +18,11 @@ db POISONPOWDER_MOVE
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,15
-	tmlearn 20,21,22
-	tmlearn 28,31,32
-	tmlearn 33,34,40
-	tmlearn 44
-	tmlearn 50,51
+    tmlearn 3,6,8
+    tmlearn 15
+    tmlearn 17,21,22
+    tmlearn 28,31,32
+    tmlearn 36,40
+    tmlearn 42,48
+    tmlearn 50,51,55
 db 0 ; padding

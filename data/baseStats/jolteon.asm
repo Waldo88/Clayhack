@@ -18,11 +18,11 @@ db QUICK_ATTACK_MOVE
 db THUNDERSHOCK_MOVE
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,15
-	tmlearn 20,24
-	tmlearn 25,31,32
-	tmlearn 33,34,39,40
-	tmlearn 44,45
-	tmlearn 50,55
+    tmlearn 6,8
+    tmlearn 15
+    tmlearn 17,19,20,24
+    tmlearn 25,28,30,32
+    tmlearn 0
+    tmlearn 45,48
+    tmlearn 50,54,55
 db 0 ; padding

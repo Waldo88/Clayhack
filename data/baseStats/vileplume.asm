@@ -18,11 +18,11 @@ db ACID_MOVE
 db POISONPOWDER_MOVE
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,15
-	tmlearn 20,21,22
-	tmlearn 31,32
-	tmlearn 33,34
-	tmlearn 44
-	tmlearn 50,51
+    tmlearn 3,6,8
+    tmlearn 15,16
+    tmlearn 17,21,22
+    tmlearn 32
+    tmlearn 36
+    tmlearn 0
+    tmlearn 50,51,55
 db 0 ; padding

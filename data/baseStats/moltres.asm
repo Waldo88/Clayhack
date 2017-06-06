@@ -18,11 +18,11 @@ db EMBER_MOVE
 db 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4,6
-	tmlearn 9,10,15
-	tmlearn 20
-	tmlearn 31,32
-	tmlearn 33,34,38,39
-	tmlearn 43,44
-	tmlearn 50,52
+    tmlearn 5,6,7
+    tmlearn 15
+    tmlearn 17
+    tmlearn 32
+    tmlearn 35,38,40
+    tmlearn 41
+    tmlearn 50,52
 db 0 ; padding

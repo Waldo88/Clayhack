@@ -18,11 +18,11 @@ db VACUUM_WAVE_MOVE
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6
-	tmlearn 9,10,15
-	tmlearn 20
-	tmlearn 31,32
-	tmlearn 34,39,40
-	tmlearn 44
-	tmlearn 50,51
+    tmlearn 3,5,6,7
+    tmlearn 15
+    tmlearn 17
+    tmlearn 31,32
+    tmlearn 40
+    tmlearn 42,48
+    tmlearn 50,51
 db 0 ; padding

@@ -18,11 +18,11 @@ db QUICK_ATTACK_MOVE
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,11,12,13,14,15
-	tmlearn 20,24
-	tmlearn 25,28,31,32
-	tmlearn 34,39,40
-	tmlearn 44
-	tmlearn 50
+    tmlearn 3,6,8
+    tmlearn 13,14,15
+    tmlearn 17,18,19,24
+    tmlearn 25,28,30,32
+    tmlearn 0
+    tmlearn 45,47
+    tmlearn 50,51,54
 db 0 ; padding
