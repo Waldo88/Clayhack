@@ -18,11 +18,11 @@ db SMOG_MOVE
 db NIGHT_SHADE_MOVE
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20,21,24
-	tmlearn 25,29,31,32
-	tmlearn 34,35,36,40
-	tmlearn 42,44,46,47
-	tmlearn 50,54
+    tmlearn 6,8
+    tmlearn 12,15,16
+    tmlearn 17,18,21,22,23,24
+    tmlearn 25,29,30,31,32
+    tmlearn 34,36,37
+    tmlearn 41,43,46,47
+    tmlearn 50,54
 db 0 ; padding

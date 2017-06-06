@@ -18,11 +18,11 @@ db GROWL_MOVE
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10
-	tmlearn 20
-	tmlearn 31,32
-	tmlearn 33,34,39,40
-	tmlearn 44
-	tmlearn 50
+    tmlearn 6,8
+    tmlearn 0
+    tmlearn 17,19
+    tmlearn 28,30,32
+    tmlearn 0
+    tmlearn 0
+    tmlearn 50
 db 0 ; padding

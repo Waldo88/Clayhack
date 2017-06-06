@@ -18,11 +18,11 @@ db SAND_ATTACK_MOVE
 db TRI_ATTACK_MOVE
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,15
-	tmlearn 20
-	tmlearn 26,27,28,31,32
-	tmlearn 34
-	tmlearn 44,48
-	tmlearn 50
+    tmlearn 3,6,8
+    tmlearn 15
+    tmlearn 17,18
+    tmlearn 26,27,28,32
+    tmlearn 36,39,40
+    tmlearn 0
+    tmlearn 49,50,51
 db 0 ; padding
