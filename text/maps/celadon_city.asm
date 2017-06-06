@@ -50,10 +50,9 @@ _TM41ExplanationText::
 	line "SLUDGE BOMB!"
 
 	para "It deals"
-	line "poison damage!"
-
-	para "It can inflict"
-	line "poison status!"
+	line "poison damage"
+	cont "and can inflict"
+	cont "poison status!"
 	done
 
 _TM41NoRoomText::
