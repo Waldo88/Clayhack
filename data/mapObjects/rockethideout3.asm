@@ -10,7 +10,7 @@ RocketHideout3Object:
 	db $4 ; objects
 	object SPRITE_ROCKET, $a, $16, STAY, RIGHT, $1, OPP_ROCKET, $e
 	object SPRITE_ROCKET, $1a, $c, STAY, UP, $2, OPP_ROCKET, $f
-	object SPRITE_BALL, $1a, $11, STAY, NONE, $3, TM_10
+	object SPRITE_BALL, $1a, $11, STAY, NONE, $3, TM20
 	object SPRITE_BALL, $14, $e, STAY, NONE, $4, RARE_CANDY
 
 	; warp-to

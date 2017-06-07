@@ -12,7 +12,7 @@ Mansion4Object:
 	object SPRITE_BALL, $a, $2, STAY, NONE, $3, RARE_CANDY
 	object SPRITE_BALL, $1, $16, STAY, NONE, $4, FULL_RESTORE
 	object SPRITE_BALL, $13, $19, STAY, NONE, $5, TM_14
-	object SPRITE_BALL, $5, $4, STAY, NONE, $6, TM_22
+	object SPRITE_BALL, $5, $4, STAY, NONE, $6, TM_43
 	object SPRITE_BOOK_MAP_DEX, $10, $14, STAY, NONE, $7 ; person
 	object SPRITE_BALL, $5, $d, STAY, NONE, $8, SECRET_KEY
 

@@ -13,4 +13,4 @@ Route24Object:
 	object SPRITE_BUG_CATCHER, $b, $19, STAY, LEFT, $5, OPP_YOUNGSTER, $4
 	object SPRITE_LASS, $a, $1c, STAY, RIGHT, $6, OPP_LASS, $8
 	object SPRITE_BUG_CATCHER, $b, $1f, STAY, LEFT, $7, OPP_BUG_CATCHER, $9
-	object SPRITE_BALL, $a, $5, STAY, NONE, $8, TM_45
+	object SPRITE_BALL, $a, $5, STAY, NONE, $8, TM_05

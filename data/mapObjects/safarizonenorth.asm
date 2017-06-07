@@ -21,7 +21,7 @@ SafariZoneNorthObject:
 
 	db $2 ; objects
 	object SPRITE_BALL, $19, $1, STAY, NONE, $1, PROTEIN
-	object SPRITE_BALL, $13, $7, STAY, NONE, $2, TM_40
+	object SPRITE_BALL, $13, $7, STAY, NONE, $2, TM_42
 
 	; warp-to
 	EVENT_DISP SAFARI_ZONE_NORTH_WIDTH, $23, $2 ; SAFARI_ZONE_WEST

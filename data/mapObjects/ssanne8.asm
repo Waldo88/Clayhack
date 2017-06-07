@@ -21,7 +21,7 @@ SSAnne8Object:
 	object SPRITE_LITTLE_GIRL, $2, $b, STAY, DOWN, $7 ; person
 	object SPRITE_CLEFAIRY, $3, $b, STAY, DOWN, $8 ; person
 	object SPRITE_GIRL, $a, $d, STAY, RIGHT, $9 ; person
-	object SPRITE_BALL, $c, $f, STAY, NONE, $a, TM_08
+	object SPRITE_BALL, $c, $f, STAY, NONE, $a, TM_07
 	object SPRITE_GENTLEMAN, $15, $d, WALK, $2, $b ; person
 
 	; warp-to

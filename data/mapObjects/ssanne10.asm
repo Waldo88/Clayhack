@@ -25,7 +25,7 @@ SSAnne10Object:
 	object SPRITE_BLACK_HAIR_BOY_2, $a, $d, STAY, RIGHT, $7 ; person
 	object SPRITE_SLOWBRO, $b, $c, STAY, NONE, $8 ; person
 	object SPRITE_BALL, $14, $2, STAY, NONE, $9, ETHER
-	object SPRITE_BALL, $a, $2, STAY, NONE, $a, TM_44
+	object SPRITE_BALL, $a, $2, STAY, NONE, $a, TM_40
 	object SPRITE_BALL, $c, $b, STAY, NONE, $b, MAX_POTION
 
 	; warp-to
