@@ -1013,6 +1013,9 @@ OaksLabText5:
 	ld hl, OaksLabDeliverParcelText
 	call PrintText
 	call OaksLabScript_RemoveParcel
+	CheckAndSetEvent EVENT_GOT_POKEBALLS_FROM_OAK
+	lb bc, POKE_BALL, 5 ; blah blah
+	call GiveItem ; blah blah
 	ld a, $f
 	ld [wOaksLabCurScript], a
 	jr .asm_1d2ed

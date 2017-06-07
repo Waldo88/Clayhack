@@ -133,8 +133,8 @@ _OaksLabGivePokeballsText2::
 	cont "it's fair game."
 
 	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	line "BALL at it and"
+	cont "try to catch it!"
 
 	para "This won't always"
 	line "work, though."
@@ -302,6 +302,13 @@ _OaksLabText24::
 
 	para "It's a hi-tech"
 	line "encyclopedia!"
+	
+	para "Oh, and I should"
+	line "also give you some"
+	cont "# BALLs! Use"
+	cont "them to capture"
+	cont "wild #MON."
+	
 	done
 
 _OaksLabText25::
@@ -310,7 +317,9 @@ _OaksLabText25::
 	cont "these with you!"
 
 	para "<PLAYER> got"
-	line "#DEX from OAK!@@"
+	line "#DEX and"
+	cont "5 # BALLs"
+	cont "from OAK!@@"
 
 _OaksLabText26::
 	text "To make a complete"
