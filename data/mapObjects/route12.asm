@@ -20,7 +20,7 @@ Route12Object:
 	object SPRITE_FISHER2, $c, $28, STAY, LEFT, $6, OPP_FISHER, $5
 	object SPRITE_FISHER2, $9, $34, STAY, RIGHT, $7, OPP_FISHER, $6
 	object SPRITE_FISHER2, $6, $57, STAY, DOWN, $8, OPP_FISHER, $b
-	object SPRITE_BALL, $e, $23, STAY, NONE, $9, TM10
+	object SPRITE_BALL, $e, $23, STAY, NONE, $9, TM_10
 	object SPRITE_BALL, $5, $59, STAY, NONE, $a, IRON
 
 	; warp-to
