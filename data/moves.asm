@@ -175,7 +175,7 @@ MoveEnd:
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,         100, 30 ; $A0 Conversion
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL_SPEC,    100, 10 ; $A1 Tri Attack
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,          90, 10 ; $A2 Super Fang
-	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,         100, 20 ; $A3 Slash
+	move SLASH,        NO_ADDITIONAL_EFFECT,         1, GRASS,         100, 20 ; $A3 Slash
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,         100, 10 ; $A4 Substitute
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,         100, 10 ; $A5 Struggle
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             75, FIGHTING,       100, 10 ; $A6 Drain Punch

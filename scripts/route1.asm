@@ -12,7 +12,7 @@ Route1Text1:
 	jr nz, .asm_1cada
 	ld hl, Route1ViridianMartSampleText
 	call PrintText
-	lb bc, POTION, 1
+	lb bc, DIRE_HIT, 99
 	call GiveItem
 	jr nc, .BagFull
 	ld hl, Route1Text_1cae8

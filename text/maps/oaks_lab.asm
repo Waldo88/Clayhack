@@ -303,8 +303,8 @@ _OaksLabText24::
 	para "It's a hi-tech"
 	line "encyclopedia!"
 	
-	para "Oh, and I should"
-	line "also give you some"
+	para "Oh, I should"
+	line "also give you"
 	cont "# BALLs! Use"
 	cont "them to capture"
 	cont "wild #MON."
