@@ -140,6 +140,7 @@ Route23TextPointers:
 	dw Route23Text6
 	dw Route23Text7
 	dw Route23Text8
+	dw Route23MerchantText
 
 Route23Text1:
 	TX_ASM

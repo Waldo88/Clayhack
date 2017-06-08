@@ -37,7 +37,7 @@ MoveEnd:
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        45, GRASS,          100, 25 ; $16 Vine Whip
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,         100, 20 ; $17 Stomp
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,       100, 30 ; $18 Double Kick
-	move DOUBLE_TEAM,  SPECIAL_UP1_EFFECT,           0, BUG,            100, 20 ; $19 Quiver Dance
+	move DOUBLE_TEAM,  SPECIAL_UP2_EFFECT,           0, BUG,            100, 20 ; $19 Quiver Dance
 	move JUMP_KICK,    JUMP_KICK_EFFECT,           100, FIGHTING,        95, 10 ; $1A Jump Kick
 	move BODY_SLAM,    SWIFT_EFFECT,                60, DARK,           100, 20 ; $1B Feint Attack
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, GROUND,         100, 15 ; $1C Sand Attack
@@ -175,7 +175,7 @@ MoveEnd:
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,         100, 30 ; $A0 Conversion
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL_SPEC,    100, 10 ; $A1 Tri Attack
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,          90, 10 ; $A2 Super Fang
-	move SLASH,        NO_ADDITIONAL_EFFECT,         1, GRASS,         100, 20 ; $A3 Slash
+	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,         100, 20 ; $A3 Slash
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,         100, 10 ; $A4 Substitute
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,         100, 10 ; $A5 Struggle
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             75, FIGHTING,       100, 10 ; $A6 Drain Punch
@@ -218,8 +218,8 @@ MoveEnd:
 	move SAND_ATTACK,  SPEED_DOWN_SIDE_EFFECT,      20, GROUND_SPEC,    100, 10 ; $CB Mud Slap
 	move SLUDGE,       SPEED_DOWN_SIDE_EFFECT,      65, GROUND_SPEC,     85, 10 ; $CC Mud Bomb
 	move EARTHQUAKE,   SPECIAL_DOWN_SIDE_EFFECT,    90, GROUND_SPEC,    100, 10 ; $CD Earth Power
-	move TACKLE,       FREEZE_SIDE_EFFECT,          70, ICE_SPEC,       100, 20 ; $CE Freeze Dry
-	move TACKLE,       TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,            100, 30 ; $CF Icicle Spear
+	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          70, ICE_SPEC,       100, 20 ; $CE Freeze Dry
+	move ICE_PUNCH,    TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,            100, 30 ; $CF Icicle Spear
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          65, ICE,             95, 15 ; $D0 Ice Fang
 	move BLIZZARD,     FLINCH_SIDE_EFFECT2,         85, ICE,             90, 10 ; $D1 Icicle Crash
 	move BLIZZARD,     FREEZE_SIDE_EFFECT,          40, ICE_SPEC,       100, 25 ; $D2 Powder Snow

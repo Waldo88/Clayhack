@@ -7,14 +7,14 @@ LoneMoves:
 ; first byte:  pokemon in the trainer's party that gets the move
 ; second byte: move
 ; unterminated
-	db 1,BIDE
-	db 1,BUBBLEBEAM
-	db 2,THUNDERBOLT
-	db 2,MEGA_DRAIN
-	db 3,TOXIC
-	db 3,PSYWAVE
-	db 3,FIRE_BLAST
-	db 4,FISSURE
+	db 1,ROCK_TOMB_MOVE
+	db 1,WATER_PULSE_MOVE
+	db 2,THUNDERPUNCH_MOVE
+	db 2,GIGA_DRAIN_MOVE
+	db 3,TOXIC_MOVE
+	db 3,CALM_MIND_MOVE
+	db 3,FIRE_BLAST_MOVE
+	db 3,STRENGTH_MOVE
 
 TeamMoves:
 ; these are used for elite four.
@@ -25,8 +25,8 @@ TeamMoves:
 ; first byte: trainer (all trainers in this class have this move)
 ; second byte: move
 ; ff-terminated
-	db LORELEI,BLIZZARD
-	db BRUNO,FISSURE
-	db AGATHA,TOXIC
-	db LANCE,BARRIER
+	db LORELEI,HYDRO_PUMP
+	db BRUNO,STONE_EDGE_MOVE
+	db AGATHA,GIGA_DRAIN_MOVE
+	db LANCE,FIRE_BLAST_MOVE
 	db $FF

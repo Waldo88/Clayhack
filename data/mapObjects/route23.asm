@@ -18,6 +18,7 @@ Route23Object:
 	object SPRITE_GUARD, $c, $69, STAY, DOWN, $5 ; person
 	object SPRITE_GUARD, $8, $77, STAY, DOWN, $6 ; person
 	object SPRITE_GUARD, $8, $88, STAY, DOWN, $7 ; person
+	object SPRITE_MART_GUY, $1, $20, STAY, DOWN, $8 ; person
 
 	; warp-to
 	EVENT_DISP ROUTE_23_WIDTH, $8b, $7 ; ROUTE_22_GATE

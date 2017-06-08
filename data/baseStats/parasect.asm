@@ -1,5 +1,5 @@
 db DEX_PARASECT ; pokedex id
-db 60 ; base hp
+db 80 ; base hp
 db 95 ; base attack
 db 80 ; base defense
 db 30 ; base speed

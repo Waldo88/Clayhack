@@ -53,7 +53,7 @@ ReadTrainer:
 .LoopTrainerData
 	ld a,[hli]
 	and a ; have we reached the end of the trainer data?
-	jr z,.FinishUp
+	jr z,.IntermediateFinishUp
 	ld [wcf91],a ; write species somewhere (XXX why?)
 	ld a,ENEMY_PARTY_DATA
 	ld [wMonDataLocation],a
@@ -122,24 +122,33 @@ ReadTrainer:
 .GiveTeamMoves
 	ld a,[hl]
 	ld [wEnemyMon5Moves + 2],a
+.IntermediateFinishUp
 	jr .FinishUp
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a,SKY_ATTACK
-	ld [wEnemyMon1Moves + 2],a
+	ld a,EARTH_POWER_MOVE
+	ld [wEnemyMon1Moves],a
 
 ; starter
 	ld a,[wRivalStarter]
 	cp STARTER3
-	ld b,MEGA_DRAIN
-	jr z,.GiveStarterMove
+	jr z,.VenuaurMoves
 	cp STARTER1
-	ld b,FIRE_BLAST
-	jr z,.GiveStarterMove
-	ld b,BLIZZARD ; must be squirtle
-.GiveStarterMove
-	ld a,b
+	jr z,.CharizardMoves
+	ld a,ICE_BEAM_MOVE ; must be squirtle
+	ld [wEnemyMon1Moves],a
+	jr .FinishUp
+.VenuaurMoves
+	ld a,GIGA_DRAIN_MOVE
+	ld [wEnemyMon6Moves + 3],a
+	ld a,TOXIC_MOVE
+	ld [wEnemyMon6Moves + 1],a
+	jr .FinishUp
+.CharizardMoves
+	ld a,DRAGON_PULSE_MOVE
+	ld [wEnemyMon6Moves + 3],a
+	ld a,THUNDERPUNCH_MOVE
 	ld [wEnemyMon6Moves + 2],a
 .FinishUp
 ; clear wAmountMoneyWon addresses
