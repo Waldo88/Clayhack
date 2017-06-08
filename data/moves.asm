@@ -149,7 +149,7 @@ MoveEnd:
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FAIRY_SPEC,     100, 30 ; $86 Fairy Wind
 	move SOFTBOILED,   HEAL_EFFECT,                  0, NORMAL,         100, 10 ; $87 Softboiled
 	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           130, FIGHTING,        90, 10 ; $88 Hi Jump Kick
-	move GLARE,        PARALYZE_EFFECT,            100, NORMAL,          75, 30 ; $89 Glare
+	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,         100, 30 ; $89 Glare
 	move DREAM_EATER,  DRAIN_HP_EFFECT,             75, PSYCHIC_SPEC,   100, 10 ; $8A Dream Eater
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,          90, 40 ; $8B Poison Gas
 	move LOVELY_KISS,  DRAIN_HP_EFFECT,             50, FAIRY_SPEC,     100, 10 ; $8C DrainingKiss
@@ -257,7 +257,7 @@ MoveEnd:
 	move SURF,         BURN_SIDE_EFFECT2,           80, WATER_SPEC,     100, 15 ; $F2 Scald
 	move BONE_CLUB,    NO_ADDITIONAL_EFFECT,        20, DRAGON,         100, 40 ; $F3 Dual Chop
 	move ROCK_THROW,   SPLASH_EFFECT,                0, ROCK,           100, 40 ; $F4 Aurora Beam
-	move FURY_ATTACK,  SPLASH_EFFECT,                0, POISON,         100, 20 ; $F5 Fury Attack
+	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,   0, POISON,         100, 20 ; $F5 Fury Attack
 	move FLASH,        NO_ADDITIONAL_EFFECT,         0, FAIRY_SPEC,      70, 20 ; $F6 Dazzle Gleam
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,         100, 30 ; $F7 Quick Attack
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        40, WATER,          100, 30 ; $F8 Aqua Jet
