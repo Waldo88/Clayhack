@@ -744,16 +744,20 @@ UncompressMonSprite::
 	ld a,BANK(TangelaPicFront)
 	jr c,.GotBank
 	ld a,b
-	cp MOLTRES + 1
-	ld a,BANK(MoltresPicFront)
+	cp RHYPERIOR + 1
+	ld a,BANK(RhyperiorPicFront)
 	jr c,.GotBank
 	ld a,b
-	cp BEEDRILL + 2
-	ld a,BANK(BeedrillPicFront)
+	cp ESPEON + 1
+	ld a,BANK(EspeonPicFront)
 	jr c,.GotBank
 	ld a,b
-	cp STARMIE + 1
-	ld a,BANK(StarmiePicFront)
+	cp DEWGONG + 1
+	ld a,BANK(DewgongPicFront)
+	jr c,.GotBank
+	ld a,b
+	cp ALAKAZAM + 1
+	ld a,BANK(AlakazamPicFront)
 	jr c,.GotBank
 	ld a,BANK(VictreebelPicFront)
 .GotBank
